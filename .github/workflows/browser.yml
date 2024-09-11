@@ -12,4 +12,4 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           browser: firefox
-          command: addtocart
+          command: npm run addtocart
