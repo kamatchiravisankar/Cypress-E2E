@@ -1,0 +1,9 @@
+{
+  "login": {
+    "email": "test.kuttu@dispostable.com",
+    "password": "Cypress123!"
+  },
+  "product": {
+    "product": "MacBook"
+  }
+}

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "addtocart": "npx cypress run --spec cypress/e2e/test/addToCartTest.cy.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/kamatchiravisankar/Cypress-E2E#readme",
   "devDependencies": {
-    "cypress": "^13.14.2"
+    "cypress": "^13.14.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
   }
 }
