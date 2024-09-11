@@ -10,3 +10,10 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v6
+        with:
+          command: npm run registerflow
+      - name: Cypress run
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mochaawesome HTML Report
+          path: cypress/reports/html
