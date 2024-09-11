@@ -1,8 +1,8 @@
 {
- "firstName":"Test",
-"lastName":"QA",
-"email":"test.kuttu@dispostable.com",
-"telephone":"1234567890",
-"password":"Cypress123!",
-"confirmPassword":"Cypress123!"
+  "firstName": "Test",
+  "lastName": "QA",
+  "email": "test.kuttu1@dispostable.com",
+  "telephone": "1234567890",
+  "password": "Cypress123!",
+  "confirmPassword": "Cypress123!"
 }
