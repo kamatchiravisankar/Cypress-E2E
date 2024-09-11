@@ -11,7 +11,7 @@ describe("Test AutomationAddToCart", function () {
     hompageObj.searchProduct(loginData.product.product);
     hompageObj
       .verifysuccessmessage()
-      .should("contain", " Success: You have added ")
+      .should("have.text", " Success: You have added ")
       .and("be.visible");
   });
 });
