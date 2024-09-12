@@ -3,16 +3,16 @@ name: Manual Trigger Workflow with loglevel & tags
 on:
   workflow_dispatch:
     inputs:
-      logLevel:
-        description: "Log level"
-        required: true
-        default: "information"
-        type: choice
-        options:
-          - information
-          - debug
-          - warning
-          - critical
+      environment:
+    description: "Environment"
+    required: true
+    default: "preprod"
+    type: string
+    options:
+          - brown
+          - yellow
+          - purple
+          - orange
       tags:
         description: "Purpose of Run This Workflow?"
         required: true
@@ -23,4 +23,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print the purpose of run
-        run: echo  ${{ inputs.tags }} purpose
+        run: echo  ${{ inputs.environment }} purpose
